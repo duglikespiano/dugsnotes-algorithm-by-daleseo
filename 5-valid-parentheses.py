@@ -1,4 +1,4 @@
-def isValidParantheses(string):
+def isValidParentheses(string):
     parens = {"(": ")", "{": "}", "[": "]"}
     stack = []
 
@@ -21,5 +21,5 @@ def isValidParantheses(string):
     return not stack
 
 
-print(isValidParantheses("{([])}"))
-print(isValidParantheses("{(})"))
+print(isValidParentheses("{([])}"))
+print(isValidParentheses("{(})"))
